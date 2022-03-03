@@ -27,13 +27,17 @@ input {
     margin-top: 20px;
 }
 button {
-    display: block;
+    /* display: block; */
     width: 200px;
     font-size: 25px;
     margin: 5px;
     padding : 5px;
     border-radius: 5px;
     cursor: pointer;
+}
+button:hover {
+    color: #f1f1f1;
+    background: #111;
 }
 .display {
     list-style-type: none;
